@@ -1,0 +1,358 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="罗凯锋的个人主页，华东师范大学数学与应用数学拔尖计划本科生，关注优化、数学建模与 AI 辅助数学证明。"
+    />
+    <meta name="theme-color" content="#f4f2ed" />
+    <title>罗凯锋 | 数学与应用数学</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">跳到主要内容</a>
+
+    <header class="site-header" data-header>
+      <a class="wordmark" href="#top" aria-label="返回首页">
+        <span>LKF</span>
+        <span class="wordmark-name">罗凯锋</span>
+      </a>
+
+      <nav class="desktop-nav" aria-label="主导航">
+        <a href="#about">关于</a>
+        <a href="#research">研究</a>
+        <a href="#notes">笔记</a>
+        <a href="#journey">经历</a>
+        <a href="#contact">联系</a>
+      </nav>
+
+      <button class="menu-button" type="button" aria-label="打开导航" aria-expanded="false" data-menu-button>
+        <span></span><span></span>
+      </button>
+    </header>
+
+    <nav class="mobile-nav" aria-label="移动端导航" data-mobile-nav>
+      <a href="#about">关于</a>
+      <a href="#research">研究</a>
+      <a href="#notes">笔记</a>
+      <a href="#journey">经历</a>
+      <a href="#contact">联系</a>
+    </nav>
+
+    <main id="main">
+      <section class="hero" id="top">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Mathematics · Optimization · AI4Math</p>
+          <h1>罗凯锋</h1>
+          <p class="hero-title">在数学的严谨与计算的效率之间，<br />寻找可验证的解。</p>
+          <p class="hero-intro">
+            华东师范大学数学科学学院，数学与应用数学拔尖计划本科生。关注优化、数学建模与形式化证明，喜欢把复杂问题拆解成清晰、可计算的结构。
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#research">查看研究</a>
+            <a class="text-link" href="mailto:3161985510@qq.com">联系我 <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+
+        <div class="portrait-wrap reveal reveal-delay" aria-label="罗凯锋个人照片">
+          <div class="portrait-index" aria-hidden="true">01</div>
+          <img src="assets/portrait.jpg" alt="罗凯锋证件照" width="600" height="840" />
+          <div class="portrait-caption">
+            <span>ECNU</span>
+            <span>Shanghai, China</span>
+          </div>
+        </div>
+
+        <a class="scroll-cue" href="#about" aria-label="向下浏览">
+          <span>SCROLL</span>
+          <span class="scroll-line" aria-hidden="true"></span>
+        </a>
+      </section>
+
+      <section class="about section" id="about">
+        <div class="section-heading">
+          <p class="section-number">02 / 关于</p>
+          <h2>用数学建立结构，<br />用计算检验判断。</h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-copy reveal">
+            <p class="lead">
+              我具备扎实的数理基础与逻辑分析能力，熟悉概率论、数值分析和 Python 编程，对优化方向保持着长期兴趣。
+            </p>
+            <p>
+              在课程学习之外，我持续接触 Lean 形式化证明系统与 AI 辅助数学证明，希望理解严谨推理如何与现代计算工具协同。面对新的研究问题，我习惯先明确假设、拆解约束，再寻找可复现的求解路径。
+            </p>
+          </div>
+
+          <dl class="facts reveal reveal-delay">
+            <div>
+              <dt>院校</dt>
+              <dd>华东师范大学<br />数学科学学院</dd>
+            </div>
+            <div>
+              <dt>方向</dt>
+              <dd>优化与数学建模<br />AI4Math</dd>
+            </div>
+            <div>
+              <dt>专业绩点</dt>
+              <dd><strong>3.95</strong> / 4.00</dd>
+            </div>
+            <div>
+              <dt>英语四级</dt>
+              <dd><strong>644</strong> 分</dd>
+            </div>
+          </dl>
+        </div>
+
+        <div class="course-strip reveal" aria-label="主修课程">
+          <span>常微分方程</span>
+          <span>近世代数</span>
+          <span>实变函数</span>
+          <span>数值分析</span>
+          <span>概率论</span>
+          <span>傅里叶分析</span>
+        </div>
+      </section>
+
+      <section class="research section" id="research">
+        <div class="section-heading research-heading reveal">
+          <p class="section-number">03 / 研究</p>
+          <h2>一项关于时空协同<br />与覆盖优化的研究。</h2>
+        </div>
+
+        <article class="paper-feature">
+          <div class="paper-visual reveal">
+            <img
+              src="assets/research-space.png"
+              alt="论文中的导弹、无人机与目标三维空间位置分布图"
+              width="1358"
+              height="1098"
+              loading="lazy"
+            />
+            <div class="visual-label">FIG. 01 · SPATIAL MODEL</div>
+          </div>
+
+          <div class="paper-copy reveal reveal-delay">
+            <p class="paper-type">数学建模研究 · 2025</p>
+            <h3>基于末端覆盖的无人机投弹策略研究</h3>
+            <p>
+              围绕来袭目标的持续有效遮蔽，从单机单弹逐步扩展到多机多弹协同。研究将几何判据、时空匹配和投放调度统一到分层优化框架中，在复杂约束下寻找覆盖时间更长的策略。
+            </p>
+
+            <div class="method-list" aria-label="研究方法">
+              <span>几何判据</span>
+              <span>启发式搜索</span>
+              <span>黄金分割精化</span>
+              <span>大邻域搜索 LNS</span>
+            </div>
+
+            <div class="paper-results">
+              <div>
+                <strong>26.9352 s</strong>
+                <span>三机协同总遮蔽时长</span>
+              </div>
+              <div>
+                <strong>5 × 3</strong>
+                <span>多机多目标任务规模</span>
+              </div>
+            </div>
+
+            <a class="button button-dark" href="assets/uav-terminal-coverage-paper.pdf" target="_blank" rel="noreferrer">
+              阅读论文 PDF <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </article>
+
+        <div class="research-detail reveal">
+          <div class="detail-index">研究路径</div>
+          <ol>
+            <li><span>01</span><strong>定义判据</strong><p>用导弹—烟幕—目标之间的最小距离建立完全遮蔽条件。</p></li>
+            <li><span>02</span><strong>优化参数</strong><p>联合搜索无人机航向、速度、投放时刻与引信延迟。</p></li>
+            <li><span>03</span><strong>协同覆盖</strong><p>由单机多弹推广到多机多目标，协调前端补充与末端覆盖。</p></li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="notes section" id="notes">
+        <div class="notes-top reveal">
+          <div class="section-heading notes-heading">
+            <p class="section-number">04 / 笔记</p>
+            <h2>把推导写下来，<br />让理解有迹可循。</h2>
+          </div>
+
+          <div class="notes-intro">
+            <p>
+              六册课程学习笔记，覆盖数学分析、代数与常微分方程。这里保留原始扫描版本，既记录结论，也记录推导发生的过程。
+            </p>
+            <dl>
+              <div><dt>6</dt><dd>册笔记</dd></div>
+              <div><dt>246</dt><dd>页内容</dd></div>
+            </dl>
+          </div>
+        </div>
+
+        <div class="notes-toolbar reveal" aria-label="按课程类别筛选笔记">
+          <span>课程分类</span>
+          <div class="note-filters" role="group" aria-label="笔记分类">
+            <button type="button" aria-pressed="true" data-note-filter="all">全部</button>
+            <button type="button" aria-pressed="false" data-note-filter="analysis">数学分析</button>
+            <button type="button" aria-pressed="false" data-note-filter="algebra">代数</button>
+            <button type="button" aria-pressed="false" data-note-filter="equations">方程</button>
+          </div>
+        </div>
+
+        <div class="notes-grid reveal" aria-live="polite">
+          <article class="note-card" data-note-category="analysis">
+            <a class="note-cover" href="assets/notes/mathematical-analysis-1.pdf" target="_blank" rel="noreferrer" aria-label="阅读数学分析 I 笔记">
+              <img src="assets/notes/covers/mathematical-analysis-1.png" alt="数学分析 I 笔记封面" width="455" height="588" loading="lazy" />
+              <span>ANALYSIS · I</span>
+            </a>
+            <div class="note-meta">
+              <div><p>数学分析</p><span>62 页</span></div>
+              <h3>数学分析 I</h3>
+              <a href="assets/notes/mathematical-analysis-1.pdf" target="_blank" rel="noreferrer">阅读笔记 <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+
+          <article class="note-card" data-note-category="analysis">
+            <a class="note-cover" href="assets/notes/mathematical-analysis-2.pdf" target="_blank" rel="noreferrer" aria-label="阅读数学分析 II 笔记">
+              <img src="assets/notes/covers/mathematical-analysis-2.png" alt="数学分析 II 笔记封面" width="455" height="588" loading="lazy" />
+              <span>ANALYSIS · II</span>
+            </a>
+            <div class="note-meta">
+              <div><p>数学分析</p><span>28 页</span></div>
+              <h3>数学分析 II</h3>
+              <a href="assets/notes/mathematical-analysis-2.pdf" target="_blank" rel="noreferrer">阅读笔记 <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+
+          <article class="note-card" data-note-category="analysis">
+            <a class="note-cover" href="assets/notes/mathematical-analysis-3.pdf" target="_blank" rel="noreferrer" aria-label="阅读数学分析 III 笔记">
+              <img src="assets/notes/covers/mathematical-analysis-3.png" alt="数学分析 III 笔记封面" width="455" height="588" loading="lazy" />
+              <span>ANALYSIS · III</span>
+            </a>
+            <div class="note-meta">
+              <div><p>数学分析</p><span>39 页</span></div>
+              <h3>数学分析 III</h3>
+              <a href="assets/notes/mathematical-analysis-3.pdf" target="_blank" rel="noreferrer">阅读笔记 <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+
+          <article class="note-card" data-note-category="algebra">
+            <a class="note-cover" href="assets/notes/advanced-algebra.pdf" target="_blank" rel="noreferrer" aria-label="阅读高等代数笔记">
+              <img src="assets/notes/covers/advanced-algebra.png" alt="高等代数笔记封面" width="455" height="588" loading="lazy" />
+              <span>LINEAR · ALGEBRA</span>
+            </a>
+            <div class="note-meta">
+              <div><p>线性代数</p><span>51 页</span></div>
+              <h3>高等代数</h3>
+              <a href="assets/notes/advanced-algebra.pdf" target="_blank" rel="noreferrer">阅读笔记 <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+
+          <article class="note-card" data-note-category="algebra">
+            <a class="note-cover" href="assets/notes/algebra-1.pdf" target="_blank" rel="noreferrer" aria-label="阅读代数学 I 笔记">
+              <img src="assets/notes/covers/algebra-1.png" alt="代数学 I 笔记封面" width="455" height="588" loading="lazy" />
+              <span>ALGEBRA · I</span>
+            </a>
+            <div class="note-meta">
+              <div><p>抽象代数</p><span>39 页</span></div>
+              <h3>代数学 I</h3>
+              <a href="assets/notes/algebra-1.pdf" target="_blank" rel="noreferrer">阅读笔记 <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+
+          <article class="note-card" data-note-category="equations">
+            <a class="note-cover" href="assets/notes/ordinary-differential-equations.pdf" target="_blank" rel="noreferrer" aria-label="阅读常微分方程笔记">
+              <img src="assets/notes/covers/ordinary-differential-equations.png" alt="常微分方程笔记封面" width="455" height="588" loading="lazy" />
+              <span>ODE · NOTES</span>
+            </a>
+            <div class="note-meta">
+              <div><p>微分方程</p><span>27 页</span></div>
+              <h3>常微分方程</h3>
+              <a href="assets/notes/ordinary-differential-equations.pdf" target="_blank" rel="noreferrer">阅读笔记 <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="journey section" id="journey">
+        <div class="section-heading reveal">
+          <p class="section-number">05 / 经历</p>
+          <h2>持续学习，<br />也持续把结果做出来。</h2>
+        </div>
+
+        <div class="journey-layout">
+          <div class="timeline reveal">
+            <article>
+              <time>2024 — 至今</time>
+              <div>
+                <p class="timeline-label">EDUCATION</p>
+                <h3>数学与应用数学拔尖计划</h3>
+                <p>华东师范大学 · 数学科学学院</p>
+              </div>
+            </article>
+            <article>
+              <time>2026</time>
+              <div>
+                <p class="timeline-label">ACADEMIC</p>
+                <h3>浙江大学 AI4Math 暑期学校</h3>
+                <p>关注人工智能与数学证明自动化</p>
+              </div>
+            </article>
+            <article>
+              <time>2025</time>
+              <div>
+                <p class="timeline-label">MODELING</p>
+                <h3>全国大学生数学建模竞赛</h3>
+                <p>上海市二等奖</p>
+              </div>
+            </article>
+          </div>
+
+          <aside class="honors reveal reveal-delay">
+            <p class="aside-title">Selected Honors</p>
+            <ul>
+              <li><span>2025</span>本科生优秀奖学金（特等）</li>
+              <li><span>2025</span>华东师范大学优秀学生</li>
+              <li><span>2025</span>华东师范大学优秀共青团员</li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+
+      <section class="skills section" aria-labelledby="skills-title">
+        <div class="skills-heading reveal">
+          <p class="section-number">06 / 工具箱</p>
+          <h2 id="skills-title">把想法变成可复现的分析。</h2>
+        </div>
+        <div class="skills-list reveal">
+          <div><span>Programming</span><p>Python</p></div>
+          <div><span>Scientific Computing</span><p>NumPy · Pandas · Matplotlib</p></div>
+          <div><span>Mathematics</span><p>数值分析 · 概率论 · 优化</p></div>
+          <div><span>Writing & Proof</span><p>LaTeX · Lean</p></div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div class="contact-inner reveal">
+          <p class="section-number">07 / 联系</p>
+          <h2>一起讨论一个<br />值得求解的问题。</h2>
+          <p>欢迎就数学建模、优化、AI4Math 或学习交流与我联系。</p>
+          <a href="mailto:3161985510@qq.com">3161985510@qq.com <span aria-hidden="true">↗</span></a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <span>罗凯锋 · 个人主页</span>
+      <span>Shanghai · <span data-year></span></span>
+      <a href="#top">回到顶部 ↑</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
