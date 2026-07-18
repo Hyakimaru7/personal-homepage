@@ -16,3 +16,13 @@ python3 -m http.server 4173
 ```
 
 打开 `http://127.0.0.1:4173`。
+
+## 发布到 GitHub
+
+登录 GitHub CLI 后运行：
+
+```bash
+./scripts/deploy-github.sh
+```
+
+脚本会创建 `personal-homepage` 公共仓库、上传课程笔记 Release，并启用 GitHub Pages。
